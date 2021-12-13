@@ -1,9 +1,8 @@
 export default {
   global: {
-    componenteFormativo:
-      'Componente Formativo con un nombre extremadamente largo y extenso',
+    componenteFormativo: 'Aplicación de procesos de biorremediación',
     descripcionCurso:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean convallis vestibulum quam bibendum varius.<br/><br/>Quisque pretium at nulla sit amet placerat. Vestibulum consequat suscipit accumsan. Proin pharetra congue enim et tempus. Sed sodales dui volutpat, placerat tellus accumsan, semper est. Phasellus nec lorem elementum, mattis quam eget, vestibulum nibh. Sed.',
+      'El conocimiento de las sustancias contaminantes, de los elementos del ambiente que se pueden ver afectados por dichas sustancias y de las alternativas de solución existentes es la combinación perfecta para lograr realizar un buen diagnóstico del problema a resolver y realizar una buena identificación de la alternativa de solución óptima que permita que los procesos de biorremediación sean exitosos.',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
@@ -24,116 +23,26 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Componentes',
+        titulo: 'Factores ambientales',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Encabezados',
-            hash: 'encabezados',
+            titulo: 'Factores abióticos',
+            hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Párrafos',
-            hash: 'parrafos',
+            titulo: 'Factores bióticos',
+            hash: 't_1_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
-            titulo: 'Botones',
-            hash: 'botones',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.4',
-            titulo: 'Listas',
-            hash: 'listas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.5',
-            titulo: 'Tablas',
-            hash: 'tablas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.6',
-            titulo: 'Imagen',
-            hash: 'imagen',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.7',
-            titulo: 'Imagen Infográfica',
-            hash: 'imagen_infografica',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.8',
-            titulo: 'Video',
-            hash: 'video',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.9',
-            titulo: 'Bloques de texto destacado',
-            hash: 'texto_destacado',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.10',
-            titulo: 'Sliders',
-            hash: 'sliders',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.11',
-            titulo: 'Acordiones',
-            hash: 'acordiones',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.12',
-            titulo: 'Pestañas o Tabs',
-            hash: 'tabs',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.13',
-            titulo: 'Líneas de tiempo',
-            hash: 'lineas_tiempo',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.14',
-            titulo: 'Pasos',
-            hash: 'pasos',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.15',
-            titulo: 'Llamados a la acción',
-            hash: 'llamados_accion',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.16',
-            titulo: 'Tarjetas',
-            hash: 'tarjetas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.17',
-            titulo: 'Tarjetas con número',
-            hash: 'tarjeta_numero',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.18',
-            titulo: 'Modal',
-            hash: 'modal',
+            titulo: 'Identificación de problemáticas ambientales',
+            hash: 't_1_3',
           },
         ],
       },
@@ -141,44 +50,26 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Producción Audiovisual',
+        titulo: 'Residuos peligrosos',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Infografía Animada',
+            titulo: 'Generalidades de residuos peligrosos',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Video Motion',
+            titulo: 'Pruebas para determinación de peligrosidad de residuos',
             hash: 't_2_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: 'Motion + Presentador',
+            titulo: 'Tratamiento y disposición final de residuos peligrosos',
             hash: 't_2_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.4',
-            titulo: 'Animación 2D',
-            hash: 't_2_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.5',
-            titulo: 'Video interactivo',
-            hash: 't_2_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.6',
-            titulo: 'Infografías',
-            hash: 't_2_6',
           },
         ],
       },
@@ -186,47 +77,60 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Fundamentación Textil',
+        titulo: 'Procesos de biorremediación',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo:
-              'Clasificación y conceptualización de las fibras naturales, químicas (artificiales y sintéticas).',
+            titulo: 'Atenuación natural',
             hash: 't_3_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.2',
-            titulo: 'Identificación fibras por combustión',
+            titulo: 'Bioestimulación',
             hash: 't_3_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.3',
-            titulo: 'Clasificación de los hilos',
+            titulo: 'Bioaumentación',
             hash: 't_3_3',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.4',
-            titulo: 'Clasificación de tejidos',
+            titulo: 'Otros procesos de biorremediación',
             hash: 't_3_4',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.5',
-            titulo: 'Caracterización de los tejidos',
+            titulo: 'Fitorremediación',
             hash: 't_3_5',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.6',
-            titulo: 'Procesos textiles',
+            titulo: 'Micorremediación y ficorremediación',
             hash: 't_3_6',
           },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.7',
+            titulo: 'Humedales artificiales',
+            hash: 't_3_7',
+          },
         ],
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo:
+          'Definición de alternativa de biorremediación para un suelo o agua contaminada',
+        desarrolloContenidos: true,
       },
     ],
     subMenu: [
@@ -271,139 +175,170 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
+        'Arrieta, M., Valencia, Y. y Echeverri, O. (2012). Aplicación de la biomineralización en suelos de la ciudad de Medellín para mitigar procesos erosivos. Universidad Nacional de Colombia.',
+    },
+    {
+      referencia:
+        'Covarrubias, S., García, J. y Peña, J. (2015). El papel de los microorganismos en la biorremediación de suelos contaminados con metales pesados. Acta Universitaria, 25(3), p. 40-45. ',
+      link: 'https://www.redalyc.org/articulo.oa?id=41648311004',
+    },
+    {
+      referencia: 'Emgrisa. (2017). Técnica de remediación: Alto Vacío. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'https://www.emgrisa.es/publicaciones/tecnica-de-remediacion-alto-vacio/',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA:',
+        'Fabelo, J. (2017). Propuesta de metodología para la recuperación de suelos contaminados. Centro Azúcar, 44(1), p. 53-60. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'http://scielo.sld.cu/scielo.php?script=sci_arttext&pid=S2223-48612017000100006&lng=es&tlng=es',
     },
     {
       referencia:
-        '<em>Harpersbazaar</em>. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
+        'Instituto Nacional de Ecología y Cambio Climático [INECC]. (2007). Tecnologías de remediación biológicas (Biorremediación).',
+      link: 'http://www2.inecc.gob.mx/publicaciones2/libros/372/tecnolog.html',
     },
     {
       referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
+        'Mejía, G. (2015). Aproximación teórica a la biosorción de metales pesados por medio de microorganismos. CES Medicina Veterinaria y Zootecnia, 1(1), 77–99. ',
+      link: 'https://revistas.ces.edu.co/index.php/mvz/article/view/210',
+    },
+    {
+      referencia: 'Miguel, C. (2012). Los humedales artificiales. iagua. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+        'https://www.iagua.es/blogs/carolina-miguel/los-humedales-artificiales-componentes-y-tipos',
     },
     {
       referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA.',
+        'Muskus, A., Santoyo, C. y Plata, L. (2013). Evaluación de las técnicas de atenuación natural, bioventing, bioaumentación y bioaumentación- bioventing, para la biodegradación de diésel en un suelo arenoso, en experimentos en columna. Universidad Nacional de Colombia.',
     },
     {
       referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
+        'Pino, N., Carvajal, S., Gallo, A. y Peñuela, G. (2012). Comparación entre bioestimulación y bioaumentación para la recuperación de suelos contaminados con diésel. Producción + Limpia, 7(1), p. 101-108. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
+        'http://www.scielo.org.co/scielo.php?script=sci_arttext&pid=S1909-04552012000100010&lng=en&tlng=es',
     },
     {
       referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
+        'Ramírez, O. (2015). Identificación de problemáticas ambientales en Colombia a partir de la percepción social de estudiantes universitarios localizados en diferentes zonas del país. Revista internacional de contaminación ambiental, 31(3), p. 293-310. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
+        'http://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S0188-49992015000300009&lng=es&tlng=es',
     },
     {
       referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
+        'Sánchez, J. y Rodríguez, J. (2003). Biorremediación. Fundamentos y aspectos microbiológicos. Revista Industria y Minería, 351, p. 12-16. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'https://studylib.es/doc/4823291/biorremediaci%C3%B3n.fundamentos-y-aspectos-microbiol%C3%B3gicos',
+    },
+    {
+      referencia:
+        'Singleton, I. (1994). “Microbial metabolism of xenobiotics: fundamental and applied research”. Journal of Chemical Technology and Biotechnology, 59(1), p. 9-23.',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Bioensayo de toxicidad',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'Prueba que permite determinar la magnitud y la naturaleza del efecto que producirá una sustancia contaminante sobre los organismos expuestos a ella bajo ciertas condiciones. ',
     },
     {
-      termino: '<em>Suftware</em>',
+      termino: '<em>Bioslurping</em>',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'También es conocida como extracción por alto vacío (<em>high vacuum extraction</em>), extracción multifase (MPE) o <em>Dual Phase Extraction</em> (DPE); es una técnica de remediación <em>in situ</em> de cuerpos de agua afectados por contaminantes ligeros, que permite la extracción simultánea de líquido y vapor o gas. Se recomienda el uso de esta técnica en puntos en los que el agua subterránea tenga una profundidad menor a 10 metros. ',
     },
     {
-      termino: 'Pirognóstico',
+      termino: '<em>Biosparging</em>',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'Tecnología de remediación <em>in situ</em> que consiste en la biodegradación de componentes orgánicos en la zona saturada mediante la inyección de aire y nutrientes, lo que mejora la eficiencia metabólica de los microorganismos de la zona; se utiliza para remediar problemas de derrames de hidrocarburos. Tiene similitud con las técnicas de burbujeo de aire, con la diferencia que esta técnica no solo volatiliza las sustancias, sino que las degrada.',
     },
     {
-      termino: '<em>Áectores</em>',
+      termino: '<em>Bioventing</em>',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'Método de utilización de aireación forzada en el suelo para combatir problemas de contaminación, estimulando la biodegradación aeróbica y acelerando la evaporación de los contaminantes. Su eficiencia se puede ver afectada por factores como la presencia de estratos arcillosos, la baja permeabilidad del suelo, alta compactación y bajo contenido de agua.',
     },
     {
-      termino: 'Moda',
+      termino: 'Cometabolismo',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'Proceso utilizado en el metabolismo de compuestos xenobióticos, en el que los microorganismos crecen en un sustrato específico y oxidan un segundo sustrato que no puede ser asimilado como fuente de carbono o de energía para ellos, pero que puede ser empleado por otro microorganismo de la comunidad como fuente de energía (Singleton, 1994). Este proceso se basa en el uso de varias rutas metabólicas a nivel celular.',
     },
     {
-      termino: 'Diseña',
+      termino: 'Ficorremediación',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Utilización de microalgas y cianobacterias para biotransformar y/o bioacumular sustancias contaminantes de aguas residuales, suelos y aire.',
     },
     {
-      termino: 'DIseño',
+      termino: 'Fitorremediación',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Conjunto de técnicas utilizadas para remediar contaminación a partir del metabolismo de organismos vegetales y su rizósfera; utiliza la capacidad de las plantas para capturar, diluir, degradar, mineralizar, volatilizar o inmovilizar contaminantes. Esta tecnología mejora su eficiencia gracias a la ingeniería genética, que le ha permitido mejorar la capacidad metabólica de las plantas.',
     },
     {
-      termino: 'Tipología',
+      termino: 'Humedales artificiales',
       significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+        'Sistema de tratamiento para aguas residuales de origen antrópico poco profundas, en el que se siembran plantas acuáticas que reproducen procesos naturales que permiten tratar aguas residuales; requieren poca energía para operar y se fundamentan en las interacciones entre el agua, plantas, microorganismos, suelo y aire, con el propósito de mejorar la calidad del agua residual a tratar.',
     },
     {
-      termino: 'Bidimensional',
+      termino: '<em>Landfarming</em>',
       significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
+        'También llamada biolabranza, es una técnica de remediación de suelos que disminuye la contaminación por hidrocarburos. Se fundamenta en el arado o la remoción de los suelos contaminados, con la posterior estimulación de la actividad microbiana aeróbica, adición de nutrientes y humedad necesaria.',
     },
     {
-      termino: 'Interés Inferior del menor',
+      termino: 'Micorremediación',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Uso de hongos para combatir problemas de contaminación, basado en las ventajas que estos presentan, tales como su capacidad de adaptarse a diferentes hábitats, o la capacidad de penetración del suelo que tienen sus hifas y la producción de enzimas extracelulares que degradan los contaminantes.',
     },
     {
-      termino: 'Interseccionalidad',
+      termino: 'Plantas hiperacumuladoras',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Plantas que tienen la capacidad de absorber sustancias contaminantes desde el suelo y los acumulan en formas menos tóxicas en sus partes aéreas, en tasas superiores a las normales. El uso de plantas hiperacumuladoras es la base de la fitoextracción. ',
     },
     {
-      termino: 'Interés superior del menor',
+      termino: 'Relave o lodo minero',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Es el residuo compuesto por una mezcla de mineral molido, agua y otros compuestos resultantes de la extracción de minerales sulfurados. Este residuo se considera tóxico y también se le llama cola.',
+    },
+    {
+      termino: 'Zona saturada de suelos',
+      significado:
+        'Es el área bajo el nivel freático, en la que todos los espacios porosos quedan llenos de agua con presiones iguales o mayores a la presión atmosférica (EPA).',
+    },
+    {
+      termino: 'Zona vadosa',
+      significado:
+        'Zona comprendida entre el nivel del terreno y el nivel freático; su contenido de humedad es menor a la saturación y la presión es menor a la presión atmosférica (EPA).',
     },
   ],
   complementario: [
     {
       texto:
-        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
+        'TEBAEV VIDEOS EDUCATIVOS. (2021). Factores Ambientales [Video]. YouTube. ',
       tipo: 'Video',
-      link: 'https://www.google.com/',
+      link: 'https://www.youtube.com/watch?v=0xRvu04-u4Q',
     },
     {
       texto:
-        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
+        'Ramírez, O. (2015). Identificación de problemáticas ambientales en Colombia a partir de la percepción social de estudiantes universitarios localizados en diferentes zonas del país. Revista Internacional de Contaminación Ambiental, 31(3), p. 293-310. ',
+      tipo: 'Artículo PDF',
+      descarga:
+        '/downloads/Identificacion_problematicas_ambientales_Colombia.pdf',
     },
     {
       texto:
-        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-      tipo: 'Artículo científico',
-      link: 'https://www.google.com/',
-    },
-    {
-      texto: 'Economía de Rosquilla. (s.f.).',
-      tipo: 'Página web',
-      descarga: ['/downloads/prueba.pdf', '/downloads/prueba.pdf'],
-    },
-    {
-      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
+        'VERLEK Ingeniería. (2018). Manejo de residuos peligrosos, plan de gestión de residuos peligrosos [Video]. YouTube.',
       tipo: 'Video',
-      link: ['https://www.google.com/', 'https://www.google.com/'],
+      link: 'https://www.youtube.com/watch?v=7E_GpUvQTWw',
+    },
+    {
+      texto:
+        'Facultad de Ciencias Sede Bogotá UN. (2021). #CienciaCápsula: Micorremediación [Video]. YouTube.',
+      tipo: 'Video',
+      descarga: 'https://www.youtube.com/watch?v=baqPzT7r5fs',
+    },
+    {
+      texto:
+        'Fabelo, J. (2017). Propuesta de metodología para la recuperación de suelos contaminados. Revista Centro Azúcar, 44(1), p. 53-60.',
+      tipo: 'Artículo PDF',
+      link:
+        '/downloads/Propuesta_metodologia_para_recuperacion_suelos_contaminados.pdf',
     },
   ],
   creditos: {
@@ -419,7 +354,27 @@ export default {
         nombre: 'Rafael Neftalí Lizcano Reyes',
         cargo: 'Asesor metodológico y pedagógico',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura <br>Regional Santander',
+      },
+      {
+        nombre: 'Giovanny Adolfo Lugo Barrera',
+        cargo: 'Experto temático',
+        centro: 'Centro de Diseño Tecnológico Industrial <br>Regional Valle',
+      },
+      {
+        nombre: 'Luz Aída Quintero Velásquez',
+        cargo: 'Diseñadora instruccional',
+        centro: 'Centro de Gestión Industrial <br>Regional Distrito Capital',
+      },
+      {
+        nombre: 'Andrés Felipe Velandia Espitia',
+        cargo: 'Revisor metodológico y pedagógico',
+        centro: 'Centro de Diseño y Metrología <br>Regional Distrito Capital',
+      },
+      {
+        nombre: 'Darío González',
+        cargo: 'Corrección de estilo',
+        centro: 'Centro Agropecuario La Granja <br>Regional Tolima',
       },
     ],
     desarrolloProducto: [
@@ -427,53 +382,59 @@ export default {
         nombre: 'Francisco José Lizcano Reyes',
         cargo: 'Responsable del equipo',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura <br>Regional Santander',
       },
       {
         nombre: 'Leyson Fabian Castaño Perez',
         cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios <br>Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: 'Juan Carlos Tapias Rueda',
         cargo: 'Diseño web',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura <br>Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Desarrollo Front-End',
+        nombre: 'Andrea Paola Botello De la Rosa',
+        cargo: 'Desarrollo front-end',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura <br>Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Andres Mauricio Santaella Ochoa',
+        cargo: 'Soporte front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura <br>Regional Santander',
+      },
+      {
+        nombre: ' ',
         cargo: 'Producción audiovisual',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura <br>Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: ' ',
         cargo: 'Validación de diseño y contenido',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura <br>Regional Santander',
       },
     ],
     gestoresRepositorio: [
       {
         nombre: 'Daniel Felipe Varón Molina',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios <br>Regional Tolima',
       },
       {
         nombre: 'Álvaro Andrés Angarita Ramirez',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios <br>Regional Tolima',
       },
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios <br>Regional Tolima',
       },
     ],
   },
