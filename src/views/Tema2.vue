@@ -121,11 +121,9 @@
 
     p.mb-4(data-aos="fade") En el caso de Colombia, la legislación ha ido creciendo al mismo tiempo que el conocimiento sobre los efectos causados por este tipo de residuos; aun así, se encuentran muchos vacíos en la parte legal de RESPEL, en lo referente a los valores máximos permisibles de ciertas sustancias, como se puede apreciar a través de su evolución en el tiempo:
 
-
-
-
-
-
+    .row.mb-5
+      h3.text-center.mb-5 Línea de tiempo de la evolución de la legislación RESPEL en Colombia 
+      BotonesB
 
     p.mb-4(data-aos="fade") Dentro de los avances importantes en la parte legal de RESPEL en Colombia, se pueden citar la elaboración del Plan de Gestión de RESPEL y el Registro de Generadores de RESPEL:
 
@@ -383,8 +381,12 @@
 </template>
 
 <script>
+import BotonesB from '../components/BotonesB.vue'
 export default {
   name: 'Tema2',
+  components: {
+    BotonesB,
+  },
   data: () => ({
     // variables de vue
   }),
