@@ -69,7 +69,9 @@
                 strong.destacado2 RESPEL 
                 | es “aquel residuo que, por sus características corrosivas, reactivas, explosivas, tóxicas, inflamables, infecciosas o radiactivas, puede causar riesgo o daño para la salud humana y el ambiente”. De la misma forma, el decreto también establece que se consideran RESPEL los recipientes y embalajes que hayan estado en contacto con ellos. 
 
-    p.mb-4(data-aos="fade") En la siguiente figura, se observa la clasificación de RESPEL según la propiedad o característica que presenten, de ahí que se les conozca como CRETIB (por sus iniciales):
+    p.mb-4(data-aos="fade") En la siguiente figura, se observa la clasificación de RESPEL según la propiedad o característica que presenten, de ahí que se les conozca como 
+      strong.destacado CRETIB 
+      | (por sus iniciales):
 
     .row.mb-5(data-aos="fade-down")
       .titulo-sexto.color-acento-botones.mb-4
@@ -171,9 +173,9 @@
       .col-md-12
         .titulo-sexto.color-acento-botones.mb-4
           h5 Figura 5. 
-          span Etiquetas para sustancias peligrosas en Colombia
+          span Rombo de peligrosidad NFPA 704
         figure.mb-3
-          img(src="@/assets/curso/tema2-1-fig5.svg", alt="Etiquetas para sustancias peligrosas en Colombia")
+          img(src="@/assets/curso/tema2-1-fig5.svg", alt="Rombo de peligrosidad NFPA 704")
         figcaption Nota. Adaptada de ¿Qué es el Rombo de Seguridad y Para qué Sirve? (Yañez, s. f.). https://www.lifeder.com/rombo-de-seguridad/
 
     p.mb-4(data-aos="fade") Estas estrategias de rotulado son de mucha importancia al momento de atender una emergencia o en los procesos de almacenamiento de sustancias peligrosas, ya que indican los riesgos de manipular y almacenar sustancias que no sean compatibles entre sí.
@@ -301,7 +303,7 @@
                 td.sin Eliminación de agua y otros líquidos.      
               tr
                 td.td2(rowspan="6") 
-                  strong Químicos
+                  strong Químico
                 td.text-center Oxido-reducción
                 td.sin Transformación de compuestos por la acción de agentes oxidantes/reductores.
               tr

@@ -43,7 +43,7 @@
           h5 Figura 1. 
           span Factores bióticos y abióticos del ecosistema
         figure
-          img.mb-2(src="@/assets/curso/tema1-fig1.svg", alt="Factores bióticos y abióticos del ecosistema")
+          img.mb-2(src="@/assets/curso/tema1-fig1-1.svg", alt="Factores bióticos y abióticos del ecosistema")
         figcaption Nota. Tomada de Currículos Exploratorios en TIC (s. f.). http://aprende.colombiaaprende.edu.co/sites/default/files/naspublic/curriculos_ex/n2g10_cienamb/nivel2/ciencias/unidad1/leccion1.html
 
     .row.justify-content-center(data-aos="fade-down")
@@ -80,7 +80,7 @@
           span Biotopo (factores abióticos del ecosistema)
         figure
           img.mb-2(src="@/assets/curso/tema1-1-fig2.svg", alt="Biotopo (factores abióticos del ecosistema)")
-        figcaption Nota. Tomada de Currículos Exploratorios en TIC (s. f.). http://aprende.colombiaaprende.edu.co/sites/default/files/naspublic/curriculos_ex/n2g10_cienamb/nivel2/ciencias/unidad1/leccion1.html
+        figcaption Nota. Tomada de Portillo (s. f.). https://www.renovablesverdes.com/abiotico/
 
     .row.mb-4
       .col-md-6.col-lg.mb-4.mb-lg-0(data-aos="fade-right")

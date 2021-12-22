@@ -4,6 +4,7 @@
   .btns__item(
     v-for="(boton, index) in botones"
     :style="getStyles(boton, index)"
+    :class="[`btns_item--${index}`]"
     @mouseover="hover = index"
     @mouseleave="hover = null"
   )
@@ -199,4 +200,28 @@ export default {
     z-index: 999
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3)
     transform: translate(-50%)
+
+.btns_item--0 .btns__text
+  left: 90%
+.btns_item--13 .btns__text
+  left: 10%
+@media (max-width:$bp-max-lg)
+  .btns_item--0 .btns__text
+    left: 100%
+  .btns_item--13 .btns__text
+    left: 0%
+@media (max-width:$bp-max-md)
+  .btns_item--0 .btns__text
+    left: 160% !important
+  .btns_item--13 .btns__text
+    left: -50% !important
+@media (max-width:$bp-max-sm)
+  .btns_item--0 .btns__text
+    left: 320% !important
+  .btns_item--1 .btns__text
+    left: 230% !important
+  .btns_item--12 .btns__text
+    left: -100% !important
+  .btns_item--13 .btns__text
+    left: -230% !important
 </style>

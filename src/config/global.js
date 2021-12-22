@@ -136,7 +136,7 @@ export default {
     subMenu: [
       {
         icono: 'fas fa-sitemap',
-        titulo: 'Sintesis',
+        titulo: 'Síntesis',
         nombreRuta: 'sintesis',
       },
       {
@@ -331,13 +331,13 @@ export default {
       texto:
         'Facultad de Ciencias Sede Bogotá UN. (2021). #CienciaCápsula: Micorremediación [Video]. YouTube.',
       tipo: 'Video',
-      descarga: 'https://www.youtube.com/watch?v=baqPzT7r5fs',
+      link: 'https://www.youtube.com/watch?v=baqPzT7r5fs',
     },
     {
       texto:
         'Fabelo, J. (2017). Propuesta de metodología para la recuperación de suelos contaminados. Revista Centro Azúcar, 44(1), p. 53-60.',
       tipo: 'Artículo PDF',
-      link:
+      descarga:
         '/downloads/Propuesta_metodologia_para_recuperacion_suelos_contaminados.pdf',
     },
   ],
@@ -449,7 +449,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura <br>Regional Santander',
       },
       {
-        nombre: ' ',
+        nombre: 'Jenny Paola Montillo Gélvez',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura <br>Regional Santander',

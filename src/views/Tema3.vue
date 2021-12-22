@@ -78,7 +78,7 @@
     #t_3_1.titulo-segundo.color-acento-botones(data-aos="fade-right")
       .h2 3.1  Atenuación natural
 
-    p.mb-4(data-aos="fade") La EPA la define como la técnica in situ que aprovecha métodos naturales, como la degradación biológica, volatilización, dilución y adsorción, para impedir que los contaminantes se propaguen más allá de los sitios afectados o aumenten su concentración en cuerpos de agua o en el suelo. 
+    p.mb-4(data-aos="fade") La EPA la define como la técnica <em>in situ</em> que aprovecha métodos naturales, como la degradación biológica, volatilización, dilución y adsorción, para impedir que los contaminantes se propaguen más allá de los sitios afectados o aumenten su concentración en cuerpos de agua o en el suelo. 
 
      .row.justify-content-center.mb-4(data-aos="fade-down")
       .col-md-10
@@ -110,7 +110,7 @@
               tr
                 td.td1(rowspan="2") 
                   strong Destructivos
-                td.td3(rowspan="2") 
+                td.td3.text-left(rowspan="2") 
                   strong Destruyen el contaminante mediante la reducción de su masa.
                 td.text-center Biodegradación
                 td.sin Los microorganismos degradan las sustancias contaminantes a formas menos tóxicas.
@@ -120,7 +120,7 @@
               tr
                 td.td2(rowspan="3") 
                   strong No destructivos
-                td.td4(rowspan="3") Reducen la concentración del contaminante hasta niveles que no son tóxicos para animales o plantas.
+                td.td4.text-left(rowspan="3") Reducen la concentración del contaminante hasta niveles que no son tóxicos para animales o plantas.
                 td.text-center Dispersión
                 td.sin(rowspan="2") Reducen la concentración del contaminante.
               tr
@@ -161,7 +161,7 @@
         .bloque-texto-b.color-primario.p-4
           .bloque-texto-b__texto
             i.fas.fa-quote-left
-            p.mb-0 Proceso de biorremediación in situ, que consiste en la adición de más especies de microorganismos para colaborar con los procesos de biodegradación de sustancias contaminantes en el suelo o el agua. La unión de estos sistemas de múltiples microorganismos conforma lo que se conoce como consorcio microbiano y representa un acercamiento a los modelos naturales
+            p.mb-0 Proceso de biorremediación <em>in situ</em>, que consiste en la adición de más especies de microorganismos para colaborar con los procesos de biodegradación de sustancias contaminantes en el suelo o el agua. La unión de estos sistemas de múltiples microorganismos conforma lo que se conoce como consorcio microbiano y representa un acercamiento a los modelos naturales
               br 
             h5.text-right.px-md-5 (Ledin, 2005, citado por Muskus et al., 2013).
             i.fas.fa-quote-right
@@ -201,7 +201,7 @@
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg-azul" data-aos="fade-down")
       .row.justify-content-center(titulo="1. Biolabranza")
         .col-md-6.mb-4.mb-md-0
-          p El suelo contaminado se trata in situ mediante procesos de arado que favorecen la aireación, como el composteo, proceso mediante el cual el material contaminado es mezclado con otros  materiales, como residuos fibrosos, aserrín o estiércol, y es degradado a subproductos menos tóxicos.
+          p El suelo contaminado se trata <em>in situ</em> mediante procesos de arado que favorecen la aireación, como el composteo, proceso mediante el cual el material contaminado es mezclado con otros  materiales, como residuos fibrosos, aserrín o estiércol, y es degradado a subproductos menos tóxicos.
         .col-md-5
           figure
             img(src='@/assets/curso/tema3-4-acord1.jpg', alt='Biolabranza')
@@ -332,7 +332,7 @@
       .row
         .col-md-4.mb-4.mb-md-0
           h4 La micorremediación
-          p Aprovecha la capacidad de varias especies de hongos para estimular la actividad enzimática y microbiana o para utilizar su micelio en la reducción de sustancias tóxicas in situ. Se aprovecha también la capacidad de desarrollarse en diferentes tipos de hábitats y su alto poder de penetración del suelo por sus hifas. Estudios realizados recientemente demuestran que los hongos que descomponen madera sirven para descomponer compuestos aromáticos y clorados. 
+          p Aprovecha la capacidad de varias especies de hongos para estimular la actividad enzimática y microbiana o para utilizar su micelio en la reducción de sustancias tóxicas <em>in situ</em>. Se aprovecha también la capacidad de desarrollarse en diferentes tipos de hábitats y su alto poder de penetración del suelo por sus hifas. Estudios realizados recientemente demuestran que los hongos que descomponen madera sirven para descomponer compuestos aromáticos y clorados. 
           p Existen también hongos hiperacumuladores (absorben y acumulan metales pesados en su cuerpo fructífero). Si se desea aplicar micorremediación ex situ, se debe estudiar en detalle el hábitat, para que el transplante sea exitoso.    
         .col-md-8
           figure
@@ -380,7 +380,7 @@
             figure
               img.px-md-2(src='@/assets/curso/tema3-7-ico1.svg', alt='Sustrato')
         h2 Sustrato
-        p Material que funciona como soporte para las plantas y donde se forma el biofilm (biopelícula) encargado de los procesos de degradación de las sustancias contaminantes presentes en el agua.
+        p Material que funciona como soporte para las plantas y donde se forma el <em>biofilm</em> (biopelícula) encargado de los procesos de degradación de las sustancias contaminantes presentes en el agua.
       .col-md.tarjeta.bg-azul.text-center.text-white.p-5
         .row.justify-content-center.mb-4
           .col-8
