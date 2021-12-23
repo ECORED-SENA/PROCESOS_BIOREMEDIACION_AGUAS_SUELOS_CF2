@@ -333,7 +333,7 @@
         .col-md-4.mb-4.mb-md-0
           h4 La micorremediación
           p Aprovecha la capacidad de varias especies de hongos para estimular la actividad enzimática y microbiana o para utilizar su micelio en la reducción de sustancias tóxicas <em>in situ</em>. Se aprovecha también la capacidad de desarrollarse en diferentes tipos de hábitats y su alto poder de penetración del suelo por sus hifas. Estudios realizados recientemente demuestran que los hongos que descomponen madera sirven para descomponer compuestos aromáticos y clorados. 
-          p Existen también hongos hiperacumuladores (absorben y acumulan metales pesados en su cuerpo fructífero). Si se desea aplicar micorremediación ex situ, se debe estudiar en detalle el hábitat, para que el transplante sea exitoso.    
+          p Existen también hongos hiperacumuladores (absorben y acumulan metales pesados en su cuerpo fructífero). Si se desea aplicar micorremediación <em>ex situ</em>, se debe estudiar en detalle el hábitat, para que el transplante sea exitoso.    
         .col-md-8
           figure
             img.mb-2(src='@/assets/curso/tema3-6-slide1.jpg', alt='Hongos Ostra')
