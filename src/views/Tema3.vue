@@ -56,7 +56,7 @@
           italic Ex situ
         p Técnicas en las que se realizan procesos para remover el componente contaminado antes de ser tratado, esta remoción y tratamiento pueden darse sobre el mismo lugar (<em>on site</em>) o en sitios diferentes (<em>off site</em>).
 
-    p.mb-4(data-aos="fade") La gama de procesos de biorremediación está basada en la aplicación de tecnologías que permiten la degradación de sustancias contaminantes basadas en procesos de oxido-reducción, acomplejamiento, quelación, intercambio iónico y adsorción, mediadas por algunos organismos capaces de metabolizar esas sustancias contaminantes bajo ciertas condiciones de pH, temperatura, potencial redox, entre otras.
+    p.mb-4(data-aos="fade") La gama de procesos de biorremediación está basada en la aplicación de tecnologías que permiten la degradación de sustancias contaminantes basadas en procesos de óxido-reducción, acomplejamiento, quelación, intercambio iónico y adsorción, mediadas por algunos organismos capaces de metabolizar esas sustancias contaminantes bajo ciertas condiciones de pH, temperatura, potencial redox, entre otras.
 
     .row.justify-content-center(data-aos="fade-down")
       .col-md-10
@@ -65,7 +65,7 @@
             i.fas.fa-quote-left
             p.mb-0 
               strong.destacado Se puede definir la biorremediación como: 
-              | “el uso de microorganismos para la degradación de contaminantes, lo que permite la restauración de ambientes impactados debido a la biodiversidad y la adaptabilidad de los microorganismos en degradar o transformar diferentes tipos de contaminantes, tanto orgánicos como inorgánicos.
+              | el uso de microorganismos para la degradación de contaminantes, lo que permite la restauración de ambientes impactados debido a la biodiversidad y la adaptabilidad de los microorganismos en degradar o transformar diferentes tipos de contaminantes, tanto orgánicos como inorgánicos.
               br 
               br
             h5.text-right.px-md-5 (Muskus et al., 2013)

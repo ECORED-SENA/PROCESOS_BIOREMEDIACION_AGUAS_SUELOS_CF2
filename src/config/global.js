@@ -215,8 +215,7 @@ export default {
     {
       referencia:
         'Pino, N., Carvajal, S., Gallo, A. y Peñuela, G. (2012). Comparación entre bioestimulación y bioaumentación para la recuperación de suelos contaminados con diésel. Producción + Limpia, 7(1), p. 101-108. ',
-      link:
-        'http://www.scielo.org.co/scielo.php?script=sci_arttext&pid=S1909-04552012000100010&lng=en&tlng=es',
+      link: 'https://dialnet.unirioja.es/servlet/articulo?codigo=4333779',
     },
     {
       referencia:

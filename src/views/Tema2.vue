@@ -304,7 +304,7 @@
               tr
                 td.td2(rowspan="6") 
                   strong Químico
-                td.text-center Oxido-reducción
+                td.text-center Óxido-reducción
                 td.sin Transformación de compuestos por la acción de agentes oxidantes/reductores.
               tr
                 td.text-center Neutralización
