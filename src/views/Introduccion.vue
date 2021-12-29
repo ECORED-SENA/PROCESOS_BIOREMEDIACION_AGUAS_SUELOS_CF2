@@ -15,7 +15,7 @@
 
     figure.mb-5(data-aos="fade-down")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/SNiN9ZT9XQc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/vQXhsqYk8Hk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     p.mb-4(data-aos="fade") Para la elaboración de este componente, se abordaron varios autores conocidos en 
       strong.destacado aplicación de procesos de biorremediación, 
